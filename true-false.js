@@ -1,17 +1,26 @@
 // falsy :
-// const age = 4; true
-// const name = "0"; true
-// let name;false
-// let name = NaN; false
+// const age= 0; false
+// let name = null;
+// let name =  false;
+// blank "" = false
+// Undefined"
+// example: let name; -- false
+// NaN is also a falsy
+
 // Truthy
 // "0"; " "; []; {};
 
-let name = NaN;
+// const age = 0;
+// if (age) {
+//   console.log('condition is true');
+// } else {
+//   console.log('condition is false');
+// }
 
+// let name = NaN;
+const name = '';
 if (name) {
-
-    console.log("condition is true");
+  console.log('condition is true');
 } else {
-
-    console.log("condition is false");
+  console.log('condition is false');
 }
